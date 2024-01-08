@@ -1,0 +1,143 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    font-family: 'Merriweather', serif;
+    font-family: 'Open Sans', sans-serif;
+    background-image: repeating-linear-gradient(
+          -90deg,
+          transparent 0 20px,
+          rgb(245, 203, 203) 5px 60px
+        );
+    
+}
+h2 {
+color: #FFF;
+text-align: center;
+font-family: Merriweather;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-top: 177px;
+
+}
+/* banner  */
+.header {
+    /* background-image: url("resources/Banner\ Image.png"); */
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 1320px;
+    border: 2px solid rgb(76, 76, 235);
+    border-radius: 16px;
+    background: url("resources/Banner\ Image.png"),rgba(71, 67, 67, 0.831) 10%;
+    background-blend-mode: multiply;
+    border-radius: 16px;
+    
+
+}
+h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px; /* 131.944% */
+    margin: 10px 344px 177px 344px;
+}
+
+.photo{
+    height: 920px;
+    width: 1320px;
+    /* background-image: 
+    url("resources/Rectangle\ 3.png"), 
+    url("resources/Rectangle\ 4.png"),
+    url("resources/Rectangle\ 5.png"), 
+    url("resources/Rectangle\ 6.png"),
+    url("resources/Rectangle\ 7.png"), 
+    url("resources/Rectangle\ 8.png"); */
+   /* background-repeat: no-repeat; */
+
+}
+h4 {
+    color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 88px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 0px;
+padding: 3px;
+}
+h5 {
+    color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-top: 48px;
+}
+h6 {
+    color: #070211;
+text-align: center;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 16px;
+}
+.happy {
+    background-image: url("resources/New\ Year\ Photo.png");
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 802px;
+    margin: 48px 398px 0px 200px;
+    /* margin: 48px; */
+}
+.welcome {
+background-image: 
+url("resources/Vectorrr.png"),
+url("resources/Group\ 70.png");
+background-blend-mode: lighten;
+background-repeat: no-repeat;
+background-position: 0% 0%,right;
+/* background-size: 1320px 600px 0px 0px;  */
+margin-top: 188px;
+
+}
+/* .welcome {
+    display:flexbox;
+    flex-direction: row;
+    
+} */
+.banner {
+color: rgba(255, 255, 255, 0.80);
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
+.blind {
+    /* background-image: repeating-linear-gradient(90deg,rgb(248, 168, 168),white); */
+    /* background-image: repeating-linear-gradient(to right,rgb(225, 160, 160),white) */
+    /* background-image: repeating-linear-gradient(-90deg,rgb(243, 177, 177)); */
+    /* background-image: repeating-linear-gradient(
+    -90deg,) */
+    /* background-image: repeating-linear-gradient(
+          45deg,
+          transparent,
+          transparent 60px,
+          rgb(231, 169, 169) 40px,
+          rgb(234, 183, 183) 40px
+        ); */
+        /* with multiple color stop lengths */
+        
+      
+}
