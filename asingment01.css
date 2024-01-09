@@ -122,8 +122,8 @@ margin-top: 188px;
     padding: 24px 497px 0px 126px;
     text-align: left;
 }
-.join {
-    color: #FFF;
+input[type='button']{
+    color: hsl(0, 0%, 100%);
 text-align: center;
 font-family: Inter;
 font-size: 20px;
@@ -131,7 +131,10 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 text-transform: uppercase;
-padding: 48px 1059px 32px 158px;
+margin: 20px 200px 0px 140px;
+background-color: #070211;
+border: 1px solid black;
+
 
 }
 /* palce date time */
