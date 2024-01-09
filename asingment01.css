@@ -3,15 +3,15 @@
     margin: 0px;
 }
 body {
-    font-family: 'Merriweather', serif;
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Merriweather', serif;
+    font-family: 'Open Sans', sans-serif; */
     background-image: repeating-linear-gradient(
-          -90deg,
+          90deg,
           transparent 0 20px,
-          rgb(245, 203, 203) 5px 60px
+          rgba(255, 0, 0, 0.15) 5px 60px
         );
-    
 }
+
 h2 {
 color: #FFF;
 text-align: center;
@@ -48,19 +48,6 @@ h1 {
     margin: 10px 344px 177px 344px;
 }
 
-.photo{
-    height: 920px;
-    width: 1320px;
-    /* background-image: 
-    url("resources/Rectangle\ 3.png"), 
-    url("resources/Rectangle\ 4.png"),
-    url("resources/Rectangle\ 5.png"), 
-    url("resources/Rectangle\ 6.png"),
-    url("resources/Rectangle\ 7.png"), 
-    url("resources/Rectangle\ 8.png"); */
-   /* background-repeat: no-repeat; */
-
-}
 h4 {
     color: #F00;
 text-align: center;
@@ -69,7 +56,6 @@ font-size: 88px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
-margin-top: 0px;
 padding: 3px;
 }
 h5 {
@@ -100,44 +86,341 @@ margin-top: 16px;
     margin: 48px 398px 0px 200px;
     /* margin: 48px; */
 }
+/* Welcome to midnight party */
 .welcome {
 background-image: 
 url("resources/Vectorrr.png"),
 url("resources/Group\ 70.png");
 background-blend-mode: lighten;
 background-repeat: no-repeat;
-background-position: 0% 0%,right;
-/* background-size: 1320px 600px 0px 0px;  */
+background-position: 0% 0%,860px;
+height: 600px;
+width: 1320px;
 margin-top: 188px;
+}
+
+
+.midnight {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px; /* 137.5% */
+    letter-spacing: 7.04px;
+    padding: 126px 552px 0px 126px;
+    text-align: left;
+}
+.dolar {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    width: 697px;
+    padding: 24px 497px 0px 126px;
+    text-align: left;
+}
+.join {
+    color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+padding: 48px 1059px 32px 158px;
 
 }
-/* .welcome {
-    display:flexbox;
-    flex-direction: row;
-    
-} */
-.banner {
-color: rgba(255, 255, 255, 0.80);
+/* palce date time */
+.location {
+    height: 482px;
+    width: 1320px;
+}
+.location1 {
+    margin: 100px 386px 40px 385px;
+    height: 168px;
+    width: 549px;
+    text-align: center;
+}
+span {
+    color: #F00;
+}
+.join2 {
+/* height: 40px;
+width: 180px; */
+background-color: #F00;
+margin: 64px 576px 100px 576px;
+color: hsl(0, 0%, 100%);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+padding-top: 20px;
+
+
+}
+/* new best offer */
+.offer {
+    display: flex;
+}
+.new {
+    color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-align: left;
+margin-top: 90px;
+}
+.soon {
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+}
+.sit {
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+height: 128px;
+width: 393px;
+}
+.img {
+    /* width: 463px;
+    height: 463px; */
+    border-radius: 50%50%;
+border: 15px solid #F00;
+padding: 49px;
+}
+.year {
+    color: #F00;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.amet {
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+}
+.happy2 {
+    margin-left: 90px;
+}
+/* holyday sales part */
+.what {
+    color: #070211;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.holy {
+    color: #F00;
+text-align: center;
+font-family: Merriweather;
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+.sale {
+    color: #070211;
+font-family: Merriweather;
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+.consectetur {
+    color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px; /* 160% */
+height: 96px;
+width: 900px;
+margin-left: 140px;
+}
+/* portfolio part */
+.portfolio{
+    height: 920px;
+    width: 1320px;
+}
+.gift {
+    color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-align: left;
+}
+.our {
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+text-align: left;
+margin-top: 16px;
+}
+.contant {
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+height: 64px;
+width: 896px;
+text-align: left;
+margin: 22px 0px 48px 0px;
+}
+/* subscriber part */
+.envo {
+text-align: center;
+margin: 80px 585px 0px 585px;
+}
+.Subscribe {
+    color: #070211;
+text-align: center;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+margin: 40px 304px 0px 304px;
+}
+.news {
+    color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+margin: 28px 266px 0px 266px;
+
+}
+/* user input  */
+.userinput {
+display: flex;
+justify-items: center;
+height: 74px;
+margin-bottom: 200px;
+
+}
+.user {
+    background: #FFF;
+    width: 210px;
+    height: 72px;
+    margin-left: 420px;
+    padding-top: 40px;
+    border-radius: 50px 0px 0px 50px;
+    color: rgba(7, 2, 17, 0.30);
+text-align: center;
 font-family: Inter;
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
-line-height: 30px; /* 166.667% */
+line-height: normal;
 }
-.blind {
-    /* background-image: repeating-linear-gradient(90deg,rgb(248, 168, 168),white); */
-    /* background-image: repeating-linear-gradient(to right,rgb(225, 160, 160),white) */
-    /* background-image: repeating-linear-gradient(-90deg,rgb(243, 177, 177)); */
-    /* background-image: repeating-linear-gradient(
-    -90deg,) */
-    /* background-image: repeating-linear-gradient(
-          45deg,
-          transparent,
-          transparent 60px,
-          rgb(231, 169, 169) 40px,
-          rgb(234, 183, 183) 40px
-        ); */
-        /* with multiple color stop lengths */
-        
-      
+.sub {
+    width: 210px;
+    height: 72px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    padding-top: 40px;
+    color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+    
+}
+/* footer part */
+footer {
+    background: #0f0c0ced;
+    width: 1260px;
+    height: 609px;
+
+}
+.foooter {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+
+}
+.address {
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px; /* 166.667% */
+/* padding-top: 100px; */
+}
+.call {
+    padding-top: 100px;
+}
+.middle {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px 20px 0px;
+}
+.fooooter {
+    display: flex;
+    justify-content: space-between;
+}
+hr {
+    background: rgba(255, 255, 255, 0.15);
+    max-width: 1320px;
+    height: 1px;
+    margin: 0px 50px 0px 50px;
+}
+.allright {
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin: 100px 0px 0px 70px;
+}
+.Unsubscribe {
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin: 100px 70px 0px 0px;
 }
